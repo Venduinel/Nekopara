@@ -1,0 +1,257 @@
+
+header 
+{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1%;
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 0;
+    
+    height: 300px;
+    background-color: rgb(5, 122, 151);
+}
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    cursor: url(../media/kursorhover123.png), default;
+}
+
+
+#tlo1
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0;
+    display: block;
+    
+   
+}
+
+header img
+{
+    margin-top: 0;
+    width: 100%;
+    position: relative;
+}
+
+
+
+#photosy img
+{
+    width: 60%;
+    
+    float: right;
+    margin-left: 30%;
+    
+}
+
+
+
+
+
+body
+{
+    background-color: black;
+
+    background-image: url(../media/tlo-coconut.jpg) ;
+    background-size: 100%;    
+    background-attachment: fixed;
+}
+
+a:hover
+{
+    cursor: url(../media/kursor123.png), default;
+}
+
+
+a:active
+{
+    cursor: url(../media/kursoractive123.png), default;
+}
+
+::-webkit-scrollbar {
+    max-width: 10px;
+    min-width: 3px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(180, 86, 31);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 94, 0);
+  }
+
+  #theme img 
+  {
+    
+    top: 50px;
+    max-width: 50%;
+    min-width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    z-index: 100;
+  }
+
+  #theme
+  {
+      width: 100%;
+      text-align: center;
+
+      position: relative;
+    top: 10px;
+      
+  }
+
+
+
+  a img:hover
+  {
+      cursor: url(../media/kursor123.png), default;
+  }
+
+  #absolut
+  {
+      position: absolute;
+  }
+
+  #photosy 
+  {
+      position: relative;
+      top: 10px;
+  }
+  
+ ul
+ {
+     list-style-type: none;
+
+ }
+
+ #naprawa
+ {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background-color: #000000;
+    text-align: center;
+}
+
+ul>li 
+{
+    display: inline-block;
+    
+}
+
+ul>li>ul 
+{
+    display: none;
+    position: absolute;
+    width: 40%;
+    z-index: 1000;
+}
+
+ul a 
+{
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    text-decoration: none;
+}
+
+ul>li:hover>ul 
+{
+    display: block;
+}
+
+li:hover
+{
+    background-color: #166565;
+    color: #BAFFFC;
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5), 2px 2px 2px rgba(196,206,73,0);
+}
+
+ul li 
+{
+    width: 18%;
+    height: 33px;
+    
+    line-height: 33px;
+    color: rgb(8, 85, 78);
+    font-size: 20px;
+
+    border-radius: 10px;
+    border: 3px solid rgb(10, 85, 81);
+
+    -webkit-box-shadow: 5px 5px 23px 7px rgb(5, 122, 151), inset 5px 5px 50px 27px rgb(5, 122, 151); 
+    box-shadow: 5px 5px 23px 7px rgb(5, 122, 151), inset 5px 5px 50px 27px rgb(5, 122, 151);
+}
+
+ul>li>ul>li
+{
+    width: 100%;
+}
+
+a:hover 
+{
+    color: white;
+}
+
+a
+{
+    color: rgb(4, 32, 30);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 460px)
+{
+    
+    ul li 
+    {
+        width: 27%;
+        
+    }
+
+    a 
+    {
+        font-size: 15px;
+        
+    }
+
+    header 
+    {
+        top: 30px;
+    }
+}
+
+#f00ter 
+{
+    width: 100%;
+    height: 25px;
+    background-color: black;
+    float: bottom;
+    position: relative;
+    text-align: center;
+}
+
+#f00ter footer 
+{
+    color: rgb(107, 220, 248);
+    font-size: 15px;
+    line-height: 25px;
+    
+}
